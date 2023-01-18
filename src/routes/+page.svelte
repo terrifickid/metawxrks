@@ -67,7 +67,7 @@
 </div>
 <div class="bg-black px-6 py-16 font-ibm font-light" style="height: 40vh;">
   <div class="grid grid-cols-12">
-    <div class="col-span-6 text-2xl">
+    <div class="col-span-12 md:col-span-6 text-2xl">
       <p>Have questions?</p>
       <p>
         <a href="mailto: connect@metawxrks.io" class="hover:underline"
