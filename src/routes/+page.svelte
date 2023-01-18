@@ -10,7 +10,7 @@
 
 <div class="font-ibm bg-black">
   <div class="p-6 flex items-center  fixed z-10 top-0 w-screen">
-    <svg viewBox="0 0 200 13.90913784000527" class="css-1j8o68f w-36"
+    <svg viewBox="0 0 200 13.90913784000527" class="css-1j8o68f w-1/3 md:w-36"
       ><defs id="SvgjsDefs1085" /><g
         id="SvgjsG1086"
         featurekey="6sJQsk-0"
