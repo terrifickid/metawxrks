@@ -1,30 +1,15 @@
 <script>
   let currentSrc = 0;
-  let videoSources = ["flower.webm", "clouds.webm", "med.webm"];
+  let videoSources = ["m2.webm"];
 
   setInterval(() => {
-    currentSrc = (currentSrc + 1) % videoSources.length;
+    // currentSrc = (currentSrc + 1) % videoSources.length;
     console.log(currentSrc);
   }, 10000);
 </script>
 
 <div class="font-ibm bg-black">
   <div class="p-6 flex items-center  fixed z-10 top-0 w-screen">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke-width="1.5"
-      stroke="currentColor"
-      class="w-6 h-6 mr-7"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        d="M3.75 9h16.5m-16.5 6.75h16.5"
-      />
-    </svg>
-
     <svg viewBox="0 0 200 13.90913784000527" class="css-1j8o68f w-36"
       ><defs id="SvgjsDefs1085" /><g
         id="SvgjsG1086"
@@ -53,39 +38,42 @@
     {/if}
   {/each}
 
-  <div class="p-6 py-16 grid grid-cols-12 gap-6 text-xl font-light">
+  <div class="p-6 py-16 grid grid-cols-12 gap-6 text-3xl font-light">
     <div class="col-span-12 md:col-span-6">
       <p class="flex items-center">
-        Connect <svg
+        Uplift. <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-6 h-6 ml-1"
+          class="w-7 h-7 ml-2 mr-2"
         >
           <path
             stroke-linecap="round"
             stroke-linejoin="round"
             d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
           />
-        </svg>
+        </svg> Inspire.
       </p>
     </div>
     <div class="col-span-12 md:col-span-6">
       <p class="text-3xl font-extralight">
-        Uplift. Inspire.<br /> Metawxrks is a Web3 company investing in inspiring
-        people and projects through supporting artists, causes, and events with blockchain
-        technology.
+        A Web3 company investing in inspiring people and projects through
+        supporting artists, causes, and events with blockchain technology.
       </p>
     </div>
   </div>
 </div>
 <div class="bg-black px-6 py-16 font-ibm font-light" style="height: 40vh;">
   <div class="grid grid-cols-12">
-    <div class="col-span-6 text-xl">
+    <div class="col-span-6 text-2xl">
       <p>Have questions?</p>
-      <p>Email us or Slack Us</p>
+      <p>
+        <a href="mailto: connect@metawxrks.io" class="hover:underline"
+          >Email us</a
+        >
+      </p>
     </div>
     <div class="col-span-6 font-light " />
   </div>
