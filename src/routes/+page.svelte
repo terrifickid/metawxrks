@@ -69,7 +69,7 @@
     </div>
   </div>
   <div class="xl:container xl:mx-auto">
-    <div class="bg-black px-6 py-16 font-ibm font-extralight">
+    <div class="bg-black px-6 py-16 font-ibm font-light">
       <div class="grid grid-cols-12">
         <div class="col-span-12 md:col-span-6 text-2xl">
           <p>Have questions?</p>
