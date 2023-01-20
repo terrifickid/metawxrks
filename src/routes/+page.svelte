@@ -33,8 +33,8 @@
         loop
         style="object-fit: cover; height: 100vh"
         class="w-screen opacity-80  border-gray-800"
+        src={source}
       >
-        <source src={source} type="video/webm" />
         Your browser does not support the video tag.
       </video>
     {/if}
@@ -68,7 +68,7 @@
     </div>
   </div>
   <div class="xl:container xl:mx-auto">
-    <div class="bg-black px-6 py-16 font-ibm font-light">
+    <div class="bg-black px-6 py-16 font-ibm font-extralight">
       <div class="grid grid-cols-12">
         <div class="col-span-12 md:col-span-6 text-2xl">
           <p>Have questions?</p>
