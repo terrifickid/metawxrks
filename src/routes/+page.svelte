@@ -1,6 +1,6 @@
 <script>
   let currentSrc = 0;
-  let videoSources = ["m2.webm"];
+  let videoSources = ["m1.mov"];
 
   setInterval(() => {
     // currentSrc = (currentSrc + 1) % videoSources.length;
