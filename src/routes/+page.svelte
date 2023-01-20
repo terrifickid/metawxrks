@@ -31,6 +31,7 @@
         autoplay
         muted
         loop
+        playsinline
         style="object-fit: cover; height: 100vh"
         class="w-screen opacity-80  border-gray-800"
         src={source}
